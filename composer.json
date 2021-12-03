@@ -1,4 +1,4 @@
-{
+    {
     "name": "miguel_p/busca-cursos",
     "description": "Projeto que busca cursos",
     "type": "library",
@@ -13,5 +13,8 @@
             "email": "miguel.silva@mackenzista.com.br"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^4.2"
+    }
 }
