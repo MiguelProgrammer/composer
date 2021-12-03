@@ -1,15 +1,25 @@
 <?php
 
+require "../vendor/autoload.php";
+
 use GuzzleHttp\Client;
-use GuzzleHttp\Exception\GuzzleException;
+use Symfony\Component\DomCrawler\Crawler;
 
 $client =  new Client();
 
 try {
 
-    $response = $client->get("https://www.mackenzie.br/processos-seletivos/vestibular-graduacao/sao-paulo-higienopolis");
+    $response = $client->request("GET","https://www.mackenzie.br/processos-seletivos/vestibular-graduacao/sao-paulo-higienopolis");
     $html = $response->getBody();
 
-} catch (GuzzleException $e) {
-    echo "Página não encontrada! {$e->getMessage()}".PHP_EOL;
+    $crawler = new Crawler();
+    $crawler->addHtmlContent($html);
+    $cursos = $crawler->filter('h3');
+
+    foreach ($cursos as $curso){
+        echo $curso->textContent.PHP_EOL;
+    }
+
+} catch (Exception $e) {
+    echo "Não foi possível listar os cursos!\n".PHP_EOL.$e->getMessage();
 }

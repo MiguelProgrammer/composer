@@ -1,4 +1,4 @@
-    {
+{
     "name": "miguel_p/busca-cursos",
     "description": "Projeto que busca cursos",
     "type": "library",
@@ -15,6 +15,7 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.4",
-        "symfony/dom-crawler": "^4.2"
+        "symfony/dom-crawler": "^4.2",
+        "symfony/css-selector": "^5.4"
     }
 }

@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a41b6ea2e9fbc1c45d636660d32ccf4ab6498c06',
+        'reference' => 'f0b4b0886c7098082d3f23c712de8613655727b1',
         'name' => 'miguel_p/busca-cursos',
         'dev' => true,
     ),
@@ -43,7 +43,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a41b6ea2e9fbc1c45d636660d32ccf4ab6498c06',
+            'reference' => 'f0b4b0886c7098082d3f23c712de8613655727b1',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(
@@ -98,6 +98,15 @@
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
             'aliases' => array(),
             'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+            'dev_requirement' => false,
+        ),
+        'symfony/css-selector' => array(
+            'pretty_version' => 'v5.4.0',
+            'version' => '5.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/css-selector',
+            'aliases' => array(),
+            'reference' => '44b933f98bb4b5220d10bed9ce5662f8c2d13dcc',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
