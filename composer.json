@@ -1,0 +1,17 @@
+{
+    "name": "miguel_p/busca-cursos",
+    "description": "Projeto que busca cursos",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MiguelP\\BuscaCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MiguelProgrammer",
+            "email": "miguel.silva@mackenzista.com.br"
+        }
+    ],
+    "require": {}
+}
