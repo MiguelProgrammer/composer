@@ -3,21 +3,19 @@
 require "../vendor/autoload.php";
 
 use GuzzleHttp\Client;
+use MiguelP\BuscaCursos\BuscaCurso;
 use Symfony\Component\DomCrawler\Crawler;
 
-$client =  new Client();
+$client =  new Client(['base_uri' => 'https://www.mackenzie.br/']);
+$crawler = new Crawler();
 
 try {
 
-    $response = $client->request("GET","https://www.mackenzie.br/processos-seletivos/vestibular-graduacao/sao-paulo-higienopolis");
-    $html = $response->getBody();
+    $buscaCursos = new BuscaCurso($client,$crawler);
+    $pegaCursos = $buscaCursos->buscar("processos-seletivos/vestibular-graduacao/sao-paulo-higienopolis");
 
-    $crawler = new Crawler();
-    $crawler->addHtmlContent($html);
-    $cursos = $crawler->filter('h3');
-
-    foreach ($cursos as $curso){
-        echo $curso->textContent.PHP_EOL;
+    foreach ($pegaCursos as $curso){
+        echo "CURSOS: $curso".PHP_EOL;
     }
 
 } catch (Exception $e) {
