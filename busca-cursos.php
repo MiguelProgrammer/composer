@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 require "vendor/autoload.php";
@@ -16,7 +17,7 @@ try {
 
     foreach ($pegaCursos as $curso) {
         if(!str_contains("ATENÇÃO",$curso)) {
-            echo "CURSOS: $curso" . PHP_EOL;
+            OlaMundo::toString("CURSOS: $curso" . PHP_EOL);
         }
     }
 } catch (Exception $e) { 

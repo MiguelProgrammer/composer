@@ -36,5 +36,6 @@
     },
     "scripts-descriptions": {
         "check": "Execução das analises de códigos e PSR, PHAN"
-    }
+    },
+    "license": "GPL-3.0-only"
 }
