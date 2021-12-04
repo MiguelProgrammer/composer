@@ -24,3 +24,7 @@ extension=ast.soa no php.ini. Encontre algumas dicas no git [Nikita Popov](https
 ![img](https://i.imgur.com/kFmLUjp.jpg)
 # composer check
 ![img](https://i.imgur.com/gEBkSla.jpg)
+
+# Publicado no Packagist - repositório de pacotes PHP
+Seguindo comando composer require miguel_p/busca-cursos
+![img](https://i.imgur.com/YIrmnvZ.jpg)
