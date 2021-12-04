@@ -29,6 +29,8 @@ extension=ast.soa no php.ini. Encontre algumas dicas no git [Nikita Popov](https
 Seguindo comando composer require miguel_p/busca-cursos
 ![img](https://i.imgur.com/YIrmnvZ.jpg)
 
-Após novas funcionalidades implementadas no projeto prinicipal, 
-realizei um composer update para obter as melhorias
+# Obtendo as novas atualizazões do projeto principal
 ![img](https://i.imgur.com/BdjoUKN.jpg)
+
+# Curso finalizado
+![img](https://i.imgur.com/ahptHW4.jpg)
