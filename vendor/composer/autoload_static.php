@@ -32,7 +32,7 @@ class ComposerStaticInitac84ccd97ad371ba9f1b52ed49fbdee7
         ),
         'M' => 
         array (
-            'MiguelP\\BuscaCursos\\' => 20,
+            'MiguelP\\BuscaCursos\\modelo\\' => 27,
         ),
         'G' => 
         array (
@@ -72,7 +72,7 @@ class ComposerStaticInitac84ccd97ad371ba9f1b52ed49fbdee7
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'MiguelP\\BuscaCursos\\' => 
+        'MiguelP\\BuscaCursos\\modelo\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

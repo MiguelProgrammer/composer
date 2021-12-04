@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'f0b4b0886c7098082d3f23c712de8613655727b1',
+        'reference' => '41eb33bd07d15039b31e14adc5f681773da17934',
         'name' => 'miguel_p/busca-cursos',
         'dev' => true,
     ),
@@ -43,7 +43,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'f0b4b0886c7098082d3f23c712de8613655727b1',
+            'reference' => '41eb33bd07d15039b31e14adc5f681773da17934',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(

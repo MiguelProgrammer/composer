@@ -3,7 +3,7 @@
 require "../vendor/autoload.php";
 
 use GuzzleHttp\Client;
-use MiguelP\BuscaCursos\BuscaCurso;
+use MiguelP\BuscaCursos\modelo\modelo\BuscaCurso;
 use Symfony\Component\DomCrawler\Crawler;
 
 $client =  new Client(['base_uri' => 'https://www.mackenzie.br/']);

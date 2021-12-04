@@ -1,6 +1,6 @@
 <?php
 
-namespace MiguelP\BuscaCursos;
+namespace MiguelP\BuscaCursos\modelo\modelo;
 
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
