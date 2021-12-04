@@ -1,7 +1,7 @@
 # Composer ![Profile View Counter](https://komarev.com/ghpvc/?username=MiguelProgrammer)
 Gerenciamento de dependências
 
-## Erros
+# Erros
 Ao tentar ralizar uma busca por método http get utilizando a função request do Client é 
 possível se deparar com o seguinte erro [cURL error 60: SSL certificate problem: unable to get local issuer certificat].
 
@@ -16,3 +16,8 @@ Para solucionar, foi necessário usar Phan 5 que depende da version PHP 7.2+ com
 extension=ast.soa no php.ini. Encontre algumas dicas no git [Nikita Popov](https://github.com/nikic/php-ast#installation), Nikita
 é contribuidor para o ecossitema PHP que é um dos responsáveis pela versão do php 7, agora faz parte da equite JetBrains.
 
+# Script no Json - Resultados
+# composer phan 
+![img](https://i.imgur.com/4lK0DGV.jpeg)
+# composer cs 
+![img](https://i.imgur.com/kFmLUjp.jpg)
