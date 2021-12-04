@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "MiguelP\\BuscaCursos\\modelo\\": "src/"
-        }
+        },
+        "classmap": [
+            "./OlaMundo.php"
+        ]
     },
     "authors": [
         {
@@ -20,6 +23,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "9",
-        "squizlabs/php_codesniffer": "^3.6"
+        "squizlabs/php_codesniffer": "^3.6",
+        "phan/phan": "^5.3"
     }
 }

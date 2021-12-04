@@ -1,6 +1,7 @@
 <?php
 
 require "vendor/autoload.php";
+OlaMundo::apresentacao();
 
 use GuzzleHttp\Client;
 use MiguelP\BuscaCursos\modelo\modelo\BuscaCurso;
@@ -16,6 +17,6 @@ try {
     foreach ($pegaCursos as $curso) {
         echo "CURSOS: $curso".PHP_EOL;
     }
-} catch (Exception $e) {
-    echo "Não foi possível listar os cursos! ".$e->getMessage();
+} catch (Exception $e) { 
+    OlaMundo::toString("Não foi possível listar os cursos! ".$e->getMessage());
 }
