@@ -1,5 +1,6 @@
-# Composer ![Profile View Counter](https://komarev.com/ghpvc/?username=MiguelProgrammer)
-Gerenciamento de dependências
+## Composer ![Profile View Counter](https://komarev.com/ghpvc/?username=MiguelProgrammer)
+# Gerenciamento de dependências
+![img](https://i.imgur.com/xVmRWXt.jpg)
 
 # Erros
 Ao tentar ralizar uma busca por método http get utilizando a função request do Client é 
