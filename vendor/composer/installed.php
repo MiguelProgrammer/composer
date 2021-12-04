@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5729251502df7a7400bc9b2f286080a521b5d6d5',
+        'reference' => 'a0ffa884aa7f1e0ec9d31d9c0fd2252a9239fe4b',
         'name' => 'miguel_p/busca-cursos',
         'dev' => true,
     ),
@@ -52,7 +52,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5729251502df7a7400bc9b2f286080a521b5d6d5',
+            'reference' => 'a0ffa884aa7f1e0ec9d31d9c0fd2252a9239fe4b',
             'dev_requirement' => false,
         ),
         'myclabs/deep-copy' => array(
@@ -344,6 +344,15 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+            'dev_requirement' => true,
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.6.1',
+            'version' => '3.6.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'reference' => 'f268ca40d54617c6e06757f83f699775c9b3ff2e',
             'dev_requirement' => true,
         ),
         'symfony/css-selector' => array(

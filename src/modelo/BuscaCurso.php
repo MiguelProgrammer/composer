@@ -7,7 +7,6 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class BuscaCurso
 {
-
     private ClientInterface $httpClient;
     private Crawler $crawler;
 
@@ -21,7 +20,7 @@ class BuscaCurso
     {
         $cursos = [];
 
-        $response = $this->httpClient->request("GET",$url);
+        $response = $this->httpClient->request("GET", $url);
         $this->crawler->addHtmlContent($response->getBody());
         $elementos = $this->crawler->filter('h3');
 
