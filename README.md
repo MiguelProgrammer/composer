@@ -15,7 +15,7 @@ Mesmo realizando a instalação via composer require --dev phan/phan, não foi p
 como 'Warning: PHP Startup: Unable to load dynamic library 'ast.so', 'The php-ast extension must be loaded in order for Phan to work'.
 Para solucionar, foi necessário usar Phan 5 que depende da version PHP 7.2+ com a extensão php-ast (1.0.16+). Além disso, adicionei 
 extension=ast.soa no php.ini. Encontre algumas dicas no git [Nikita Popov](https://github.com/nikic/php-ast#installation), Nikita
-é contribuidor para o ecossitema PHP que é um dos responsáveis pela versão do php 7, agora faz parte da equite JetBrains.
+é contribuidor para o ecossitema PHP que é um dos responsáveis pela versão do php 7, fez parte da equite JetBrains.
 
 # Script no Json - Resultados
 # composer phan 
