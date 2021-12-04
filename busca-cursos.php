@@ -15,7 +15,9 @@ try {
     $pegaCursos = $buscaCursos->buscar("processos-seletivos/vestibular-graduacao/sao-paulo-higienopolis");
 
     foreach ($pegaCursos as $curso) {
-        echo "CURSOS: $curso".PHP_EOL;
+        if(!str_contains("ATENÇÃO",$curso)) {
+            echo "CURSOS: $curso" . PHP_EOL;
+        }
     }
 } catch (Exception $e) { 
     OlaMundo::toString("Não foi possível listar os cursos! ".$e->getMessage());
