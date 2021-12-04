@@ -7,7 +7,7 @@ Class OlaMundo
      */
     public static function apresentacao(): void
     {
-        echo PHP_EOL."## Projeto - PHP Composer: Dependências, Autoload e Publicação ##".PHP_EOL.PHP_EOL;
+        echo PHP_EOL."# Projeto - PHP Composer: Dependências, Autoload e Publicação #".PHP_EOL.PHP_EOL;
     }
 
     /*
