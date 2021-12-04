@@ -21,3 +21,5 @@ extension=ast.soa no php.ini. Encontre algumas dicas no git [Nikita Popov](https
 ![img](https://i.imgur.com/4lK0DGV.jpeg)
 # composer cs 
 ![img](https://i.imgur.com/kFmLUjp.jpg)
+# composer check
+![img](https://i.imgur.com/gEBkSla.jpg)
